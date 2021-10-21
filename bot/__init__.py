@@ -32,7 +32,7 @@ try:
   advance_config = environ.get("ADVANCE_CONFIG", None)
   if advance_config:
     from_chats = []
-  replace_string = environ.get("REPLACE_STRING", "")
+  replace_string = environ.get("REPLACE_STRING", "@ROPornHub")
 except KeyError as e:
   LOG.error(e)
   LOG.error("One or more variables missing. Exiting...")
